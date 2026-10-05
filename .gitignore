@@ -1,22 +1,18 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
 
 ### Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
-.idea
-Plan de estudio IAS.iml
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.sts4-cache/
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,5 +24,10 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Compilados e Binarios de Java ###
+*.class
+bin/
+
+### Sistema Operativo ###
 .DS_Store
+Thumbs.db
