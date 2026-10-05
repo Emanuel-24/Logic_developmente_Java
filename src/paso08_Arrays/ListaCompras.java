@@ -8,8 +8,6 @@ public class ListaCompras {
         System.out.printf("Bienvenido, %naquí podrás añadir los productos que quieres comprar.%nCuando quieras dejar de agregar productos sólo escribe 'fin'.%n%n");
 
         FormattedList(AddList());
-
-
     }
     public static ArrayList<String> AddList(){
         String entrada = "";
@@ -25,7 +23,6 @@ public class ListaCompras {
             } else if (!entrada.isEmpty()) {
                 list.add(entrada);
             }
-
         }
         return list;
     }
